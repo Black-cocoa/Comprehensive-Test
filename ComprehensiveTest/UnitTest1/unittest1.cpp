@@ -14,8 +14,7 @@ namespace UnitTest1
 		
 		TEST_METHOD(TestMethod1)
 		{
-			// TODO: 在此输入测试代码
-			int paraandresult[3];
+			int paraandresult[3] = {0};
 			char samplenode[SECTION_LEN] = { 0 };//测试节点名
 			message_t * section = get_case_space();//得到测试配置文件中节点的范围和节点名
 			for (int i = 1; i < section->max + 1; ++i)
